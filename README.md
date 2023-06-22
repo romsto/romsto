@@ -17,14 +17,25 @@ class Romain extends Student {
     
     public Romain() {
         username = "Romain";
-        location = "France";
+        //location = "France";
+        location = "South Korea";
         favoriteLanguage = "Java";
     }
     
-    public School getSchool() {
+    public School[] getSchools() {
+        School[] mySchools = new School[2];
+        
         String schoolName = "IMT Mines Alès";
-        List<String> subjects = Arrays.asList("General Engineering", "Computer Science", "Management");
-        return new School(schoolName, subjects);
+        Degree degree = Degree.MASTER_OF_ENGINEERING;
+        List<String> subjects = List.of("Computer Science", "Artificial Intelligence", "General Engineering");
+        mySchools[0] = new School(schoolName, degree, subjects);
+
+        schoolName = "Seoul National University 서울대학교";
+        degree = Degree.MASTER_OF_SCIENCE;
+        subjects = List.of("Artificial Intelligence", "Deep Learning", "Natural Language Processing");
+        mySchools[1] = new School(schoolName, degree, subjects);
+        
+        return mySchools;
     }
     
     public String[] getGoals() {
