@@ -1,6 +1,6 @@
 ### Hello, I am Romain 👋
 
-🎓 Currently pursuing **M.S. in Computer Science and Engineering**** at Seoul National University (서울대학교)
+🎓 Currently pursuing **M.S. in Computer Science and Engineering** at Seoul National University (서울대학교)
 
 🔬 Research Interests:
     - LLM Optimization
