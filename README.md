@@ -1,12 +1,14 @@
 ### Hello, I am Romain 👋
 
-🎓 Currently pursuing **M.S. in Computer Science and Engineering** at Seoul National University (서울대학교)
+🎓 Currently pursuing a **M.S. in Computer Science and Engineering** at __Seoul National University__ (서울대학교)
 
 🔬 Research Interests:
-    - LLM Optimization
-    - Information Retrieval
+My goal is to improve the efficiency and performance of language models without retraining or fine-tuning.
+
+- LLM Optimization
+- Information Retrieval
     
-🏛️ Lab: Language and Data Intelligence ([ldi.snu.ac.kr](https://ldi.snu.ac.kr))
+🏛️ Lab: Language and Data Intelligence Laboratory ([ldi.snu.ac.kr](https://ldi.snu.ac.kr))
 
 [![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Brave&logoColor=white&link=https://rstr.fr/)](https://rstr.fr/)
 ![](https://visitor-badge.glitch.me/badge?page_id=romsto.romsto)
@@ -19,14 +21,14 @@ class Romain extends Student {
     String location;
     String[] skills;
     
-    public Romain() {
+    Romain() {
         username = "Romain";
         //location = "France";
         location = "South Korea";
-        skills = {"Software Engineering", "Large Language Models", "Machine/Deep Learning"};
+        skills = {"Large Language Models", "Machine/Deep Learning", "Software Engineering"};
     }
     
-    public Education[] getEducation() {
+    Education[] getEducation() {
         Education[] myEducation = new Education[2];
 
         myEducation[0] = new EducationBuilder().degree(Degree.MASTER_OF_ENGINEERING)
@@ -43,11 +45,11 @@ class Romain extends Student {
         return myEducation;
     }
     
-    public String[] getGoals() {
-        return new String[] {"Feed my curiosity", "Improve interaction between humans and computers", "Contribute to humanity"};
+    String[] getGoals() {
+        return {"Feed my curiosity", "Contribute to humanity", "Accelerate & Improve LLMs"};
     }
     
-    public String getContact() {
+    String getContact() {
         return "romsto@snu.ac.kr";
     }
 }
