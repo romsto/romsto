@@ -1,5 +1,5 @@
 ### Hello, I am Romain 👋
-#### Research Engineer @ [Adaptive ML](https://adaptive-ml.com).
+#### Research Engineer @ Datadog (ex-[Adaptive ML](https://adaptive-ml.com)).
 
 🎓 _Graduated with a dual degree_:\
 **M.S.** in Computer Science and Engineering @ __Seoul National University__ (서울대학교).\
@@ -18,7 +18,7 @@ LLMs, generally.
 
 #### `$ cat romain.py`
 ```python
-from earth import Human
+from entities.earth import Human
 
 
 class Romain(Human):
